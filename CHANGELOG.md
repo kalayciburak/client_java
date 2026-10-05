@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.9.1](https://github.com/prometheus/client_java/compare/v1.9.0...v1.9.1) (2026-10-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.github.ben-manes.caffeine:caffeine to v3.3.0 ([#2493](https://github.com/prometheus/client_java/issues/2493)) ([5bf31dc](https://github.com/prometheus/client_java/commit/5bf31dc287edac5eb052f57a561b61b8a3309133))
+* **deps:** update dependency com.google.guava:guava to v33.7.2-jre ([#2510](https://github.com/prometheus/client_java/issues/2510)) ([78820b0](https://github.com/prometheus/client_java/commit/78820b069d07909c40a329922d99a2768959a9b4))
+* **deps:** update dependency io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha to v2.32.0-alpha ([#2523](https://github.com/prometheus/client_java/issues/2523)) ([933c38b](https://github.com/prometheus/client_java/commit/933c38b32853bacd8001db10a4c6511fc483b0e6))
+* **deps:** update dependency io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha to v2.32.0-alpha ([#2524](https://github.com/prometheus/client_java/issues/2524)) ([d7c3286](https://github.com/prometheus/client_java/commit/d7c3286f0967ae390ecf0611243c16f3d4ceab17))
+* **deps:** update jetty monorepo to v12.1.14 ([#2527](https://github.com/prometheus/client_java/issues/2527)) ([3fb8ccc](https://github.com/prometheus/client_java/commit/3fb8ccca65cdc176e3015f6038f41a425e481216))
+* exclude non-release modules from Maven deployment ([#2481](https://github.com/prometheus/client_java/issues/2481)) ([f27baf4](https://github.com/prometheus/client_java/commit/f27baf4196aea08304df67124e84af4d7e102bab))
+
+
+### Performance Improvements
+
+* update otel benchmark dependencies, add otel bound instrument scenarios ([#2451](https://github.com/prometheus/client_java/issues/2451)) ([fd343a2](https://github.com/prometheus/client_java/commit/fd343a2b42a34011fb67fddbca279067e94fb2ab))
+
 ## [1.9.0](https://github.com/prometheus/client_java/compare/v1.8.0...v1.9.0) (2026-09-16)
 
 
